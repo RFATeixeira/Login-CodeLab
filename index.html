@@ -16,26 +16,33 @@
   <body>
     <section>
       <div
-        class="w-screen h-screen grid grid-cols-1 xl:grid-cols-2 justify-center xl:justify-between items-center "
+        class="w-screen h-screen grid grid-cols-1 xl:grid-cols-2 justify-center xl:justify-between items-center"
       >
-        <div class="central bg-dark60 first:hidden  xl:first:grid">
+        <div class="central bg-dark60 first:hidden xl:first:grid">
           <img src="./src/image/image.svg" alt="Figura Mundo" />
         </div>
-        <div">
+        <div>
           <div class="central">
             <div class="flex flex-col w-[280px] md:w-[400px] gap-16">
               <div class="flex flex-col gap-1 md:gap-2">
-                <span class="text-lg md:text-xl font-medium">Bem-vindo de volta</span>
+                <span class="text-lg md:text-xl font-medium"
+                  >Bem-vindo de volta</span
+                >
                 <span class="text-2xl md:text-[32px] font-semibold"
                   >Faça login na sua conta</span
                 >
               </div>
-              <form id="form1" action="#" class="flex flex-col gap-14 h-[300px]">
+              <form
+                id="form1"
+                action="#"
+                class="flex flex-col gap-14 h-[300px]"
+              >
                 <div class="flex flex-col gap-6 h-[235px]">
                   <div class="flex flex-col gap-8 h-[194px]">
                     <div class="gap-3 h-[81px] flex flex-col">
                       <label for="email" class="text-lg">E-mail</label>
-                      <input required
+                      <input
+                        required
                         type="email"
                         placeholder="exemplo@gmail.com"
                         class="h-[49px] bg-dark40 border-[1px] border-dark30 p-4 rounded text-base placeholder-dark20 transition duration-500 focus:placeholder-transparent focus:border-[2px] focus:border-brandcolor outline-none"
@@ -43,55 +50,90 @@
                     </div>
                     <div class="gap-3 h-[81px] flex flex-col">
                       <label for="password" class="text-lg">Senha</label>
-                      <input required
+                      <input
+                        required
                         type="password"
                         placeholder="0123456789"
                         class="h-[49px] bg-dark40 border-[1px] border-dark30 p-4 rounded text-base placeholder-dark20 transition duration-500 focus:placeholder-transparent focus:border-[2px] focus:border-brandcolor outline-none"
                       />
                     </div>
                   </div>
-                  <div class="gap-4 md:gap-[101px] flex justify-around items-center">
+                  <div
+                    class="gap-4 md:gap-[101px] flex justify-around items-center"
+                  >
                     <div class="gap-2 md:gap-3 flex items-center">
                       <input
                         type="checkbox"
                         class="form-checkbox appearance-none bg-dark40 rounded-full w-4 h-4 border-[1px] border-dark30 hover:bg-brandcolor/50 checked:bg-brandcolor cursor-pointer transition duration-300"
                       />
-                      <span class="font-medium text-sm md:text-base">Lembre de mim</span>
+                      <span class="font-medium text-sm md:text-base"
+                        >Lembre de mim</span
+                      >
                     </div>
-                    <a href="#" class="font-medium text-brandcolor text-sm md:text-base hover:text-brandcolor/80 transition duration-300"
+                    <a
+                      href="#"
+                      class="font-medium text-brandcolor text-sm md:text-base hover:text-brandcolor/80 transition duration-300"
                       >Esqueceu sua senha?</a
                     >
                   </div>
                 </div>
                 <div class="flex flex-col gap-6">
-                  <button value="submit" form="form1"
+                  <button
+                    value="submit"
+                    form="form1"
                     class="bg-brandcolor hover:bg-brandcolor/90 flex justify-center items-center h-[2.75rem] md:h-[3.25rem] text-dark50 text-sm md:text-lg font-medium rounded transition duration-300"
                   >
                     <a>Entrar na conta</a>
                   </button>
-                  
                 </div>
               </form>
               <button
-                    class="bg-dark10 hover:bg-dark10/90 flex justify-center items-center h-[3.25rem] md:h-[3.25rem] text-dark50 text-sm md:text-lg font-medium rounded gap-3 transition duration-300"
-                  >
-                    <img
-                      src="./src/image/icon.png"
-                      alt="Google Icon"
-                      class="w-4 h-4 md:w-6 md:h-6"
-                    /><a>Ou faça login com o Google</a>
-                  </button>
+                class="bg-dark10 hover:bg-dark10/90 flex justify-center items-center h-[3.25rem] md:h-[3.25rem] text-dark50 text-sm md:text-lg font-medium rounded gap-3 transition duration-300"
+              >
+                <img
+                  src="./src/image/icon.png"
+                  alt="Google Icon"
+                  class="w-4 h-4 md:w-6 md:h-6"
+                /><a>Ou faça login com o Google</a>
+              </button>
               <div>
                 <span
                   class="text-md md:text-xl text-dark10 flex justify-center font-medium"
-                  >Não tem uma conta?<a href="#" class="text-brandcolor pl-1 hover:text-brandcolor/80 transition duration-300">
-                  Cadastre-se</a
+                  >Não tem uma conta?<a
+                    href="#"
+                    class="text-brandcolor pl-1 hover:text-brandcolor/80 transition duration-300"
+                  >
+                    Cadastre-se</a
                   ></span
                 >
               </div>
             </div>
           </div>
         </div>
+      </div>
+      <div
+        class="w-full flex flex-col justify-center items-center -mt-12 md:-mt-16 text-sm md:text-base"
+      >
+        <span
+          >Desafio do
+          <a
+            href="https://github.com/iuricode"
+            class="text-brandcolor underline"
+            rel="noopener noreferrer"
+            target="_blank"
+            >IuriCode</a
+          >.</span
+        >
+        <span
+          >Desenvolvido por
+          <a
+            href="https://github.com/RFATeixeira"
+            class="text-brandcolor underline"
+            rel="noopener noreferrer"
+            target="_blank"
+            >Raphael Teixeira</a
+          >.</span
+        >
       </div>
     </section>
   </body>
