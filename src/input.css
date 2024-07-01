@@ -1,0 +1,25 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import url("https://fonts.googleapis.com/css2?family=Archivo:ital,wght@0,100..900;1,100..900&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Archivo", sans-serif;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+@layer components {
+  .central {
+    @apply h-screen flex justify-center items-center;
+  }
+}
